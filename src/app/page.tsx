@@ -123,7 +123,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a couple of impactful projects, including 'Lead Follower,' a tool designed to streamline lead management, and 'Go Corona,'a survival game where players are eliminated when they hit a virus. Here are the details of both projects.
+                  I&apos;ve worked on a couple of impactful projects, including Lead Follower, a tool designed to streamline lead management, and Go Corona,a survival game where players are eliminated when they hit a virus. Here are the details of both projects.
                   
                 </p>
               </div>

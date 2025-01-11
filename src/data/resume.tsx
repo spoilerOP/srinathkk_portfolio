@@ -23,7 +23,6 @@ export const DATA = {
     "Network Security",
     "Wireshark",
     "Splunk",
-    "C++",
     "SIEM",
     "Nmap",
     "Hydra",
@@ -56,7 +55,7 @@ export const DATA = {
         navbar: true,
       },
       X: {
-        name: "i",
+        name: "x",
         url: "https://www.instagram.com/srinath.k.k",
         icon: Icons.x,
 
@@ -159,7 +158,7 @@ export const DATA = {
       dates: "Nov 2022 - Mar 2023",
       active: true,
       description:
-        "*Lead Follower* is a real-time location tracking system for company employees, where team leaders create journeys, and members join via QR codes. It allows tracking of team members' locations through a map and detects accidents using sensors, ensuring safety and efficient task completion.",
+        "*Lead Follower* is a real-time location tracking system for company employees, where team leaders create journeys, and members join via QR codes. It allows tracking of team members locations through a map and detects accidents using sensors, ensuring safety and efficient task completion.",
       technologies: [
         "Python",
         "Pycharm",
@@ -169,11 +168,7 @@ export const DATA = {
         "HTML",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
+       
       ],
       image:
        "",
