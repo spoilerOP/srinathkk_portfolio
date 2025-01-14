@@ -12,9 +12,8 @@ def get_wayback_urls(domain):
     try:
         # Send GET request to Wayback Machine API
         response = requests.get(url, params=params)
-        response.raise_for_status()  # Raise HTTPError for bad responses (4xx and 5xx)
+        response.raise_for_status()  
         
-        # Process the response
         urls = response.text.strip().split("\n")
         print(f"Found {len(urls)} URLs for domain '{domain}':")
         for i, link in enumerate(urls, 1):
